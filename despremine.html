@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Despre mine
+
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-position: center center;
+            overflow-x: hidden;
+            margin: 0 !important;
+            font-family: Arial, Helvetica, sans-serif !important;
+            width: 100%;
+        }
+
+        .navbar {
+
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 30px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: red;
+        }
+
+        .navbar .active {
+            background-color: red;
+        }
+
+        .footer {
+            position: relative;
+            padding: 20px;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .scroll-arrow {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            width: 70px;
+            height: 70px;
+            background-image: url('./imagini/arrow.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 60%;
+            display: none;
+            z-index: 9999;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+
+        .scroll-arrow.show {
+            display: block;
+        }
+
+        .scroll-arrow:hover {
+            opacity: 1;
+        }
+        main {
+    z-index: 100;
+}
+li,
+a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+.cta {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cta:hover {
+    transition: all 0.3 ease 0s;
+    color: red;
+}
+
+
+.activect {
+    color: red;
+    text-decoration: none;
+}
+.titlu {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    color: BLACK;
+}
+.eu{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.euimg{
+    width:400px;
+    height: auto;
+}
+.nume{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.desc{
+    justify-content: center;
+    display: flex;
+}
+.descriere{
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    text-indent: 30px;
+    text-align: center;
+    border:2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.linkss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.retele {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 30%;
+    border-radius:10px;
+    margin-top: 20px;
+    background:white;
+    border:2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ig,
+.git,
+.ctr {
+    width: 50px;
+    height: 50px;
+    cursor:pointer;
+}
+.ig:hover,
+.git:hover,
+.ctr:hover {
+    scale:1.2;
+    transition: all 0.3 ease 0s;
+}
+
+
+    </style>
+</head>
+
+<body style="background-color:white;">
+
+    <div class="navbar">
+        <a href="index.html">Acasă</a>
+        <a href="back-in-time.html">Back in time</a>
+        <a href="contacte.html">Contacte</a>
+        <a href="academie.html">Academie</a>
+        <a href="despremine.html" class="active">Despre mine</a>
+    </div>
+    <main>
+        <div class="titlu">Cine sunt eu?</div>
+        <div class="eu">
+            <img src="./imagini/EU.jpeg" class="euimg">
+        </div>
+        <div class="nume">Modrean Robert</div>
+        <div class="desc">
+            <div class="descriere">
+            Sunt elev în clasa a 12-a, profil matematica informatica la Colegiul Tehnic Regele Ferdinand I, am 19 ani, sunt un băiat
+            ambițios și ordonat.
+            Îmi doresc sa ajung departe și cum se spune... țintește sus, fi cel mai bun!</div>
+        </div>
+        <div class="linkss">
+            <div class="retele">
+                <a href="https://www.instagram.com/robby_.robert?igsh=MXNiYnJna2ttM3Jj"><img src="./imagini/Instagram.png" class="ig"></a>
+                <a href="https://api.whatsapp.com/qr/Z2BSLDEUSXCNH1?autoload=1&app_absent=0"><img src="./imagini/whatsapp.jpg" class="git"></a>
+                <a href="https://ctrsv.ro/"><img src="./imagini/ctr.png" class="ctr"></a>
+            </div>
+        </div>
+        <a href="despre.html" class="scroll-arrow"></a>
+        <br>
+        <br>
+    </main>
+    <div class="footer">
+        <h2 style="text-align: left;">
+            Proiect atestat anul 2025
+        </h2>
+        <h3 style="text-align: left;">Robert Modrean</h3>
+        <h3 style="text-align: left;">clasa 12 A - Matematica Informatica</h3>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

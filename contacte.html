@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 
+			contacte
+
+		</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body{
+    background-position: center center;
+    overflow-x:hidden;
+    background-image: url("/imagini/.jpeg");
+    background-repeat: no-repeat;
+    margin:0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+.navbar .active{
+  background-color: red;
+}
+
+h1 {
+  font-size: 60px;
+}
+h1 {text-align: center;}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poza1{
+    background-color:white ;
+    width: 400px;
+    border: 15px solid #333;
+    padding: 50px;
+    margin: 20px
+}
+p{
+  font-size: 24px;
+}
+.dropbtn1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.dropdown1 {
+ 
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow-y: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height: '280px';
+ 
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.dropdown-menu1 {
+      max-height: 70vh;
+   }
+   .scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+.container1 { 
+  height: 200px;
+  position: relative;
+  border: none; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button {
+  border: none;
+  color: rgb(77, 77, 77);
+  padding: 16px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+  
+.container_principal {
+  background-color: white;
+  margin-left:20px;
+  margin-right:10px;
+  margin-top: 20px;
+}
+.footer {
+   position: relative;
+   padding:20px;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+.scroll-arrow {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 70px;
+    height: 70px;  
+    background-image: url('./imagini/arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    display: none;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-arrow.show {
+    display: block;
+}
+
+.scroll-arrow:hover {
+    opacity: 1;
+}
+</style>
+	</head>
+	<body style="background-color:white;">
+  
+ 
+
+	
+<div class="navbar">
+    <a href="index.html">Acasă</a>
+    <a href="back-in-time.html">Back in time</a>
+    <a href="contacte.html" class="active">Contacte</a>
+    <a href="academie.html">Academie</a>
+    <a href="despremine.html">Despre mine</a>
+  </div>
+  <div class="container_principal">
+  <h1> - CONTACTE - </h1>
+
+<h1>
+  -SA TINEM LEGATURA!-
+</h1>
+<p>
+Daca doriti sa aflati mai multe despre profesia militara si cum puteti incepe o cariera in armata romaniei, nu ezita sa ne contacti!
+</p>
+<div class="dropdown1">
+  <button onclick="myFunction()" class="dropbtn1">ALEGE JUDETUL</button>
+  <div id="myDropdown" class="dropdown-content1">
+    <ul class="dropdown-menu scrollable-menu" role="menu">
+    <a href="#" id="closeDropdown"> Închide Meniul</a>
+    <a href="#1">Alba</a>
+    <a href="#2">Arad</a>
+    <a href="#3">Arges</a>
+    <a href="#4">Bacau</a>
+    <a href="#5">Bihor</a>
+    <a href="#6">Bistrita-nasaud</a>
+    <a href="#7">Botosani</a>
+    <a href="#8">Braila</a>
+    <a href="#9">Brasov</a>
+    <a href="#10">Bucuresti s1</a>
+    <a href="#11">Bucuresti s2</a>
+    <a href="#12">Bucuresti s3</a>
+    <a href="#13">Bucuresti s4</a>
+    <a href="#14">Bucuresti s5</a>
+    <a href="#15">Bucuresti s6</a>
+    <a href="#16">Buzau</a>
+    <a href="#17">Calarasi</a>
+    <a href="#18">Caraș-Severin</a>
+    <a href="#19">Cluj</a>
+    <a href="#20">Constanta</a>
+    <a href="#21">Covasna</a>
+    <a href="#22">Dambovita</a>
+    <a href="#23">Dolj</a>
+    <a href="#24">Galati</a>
+    <a href="#25">Giurgiu</a>
+    <a href="#26">Gorj</a>
+    <a href="#27">Harghita</a>
+    <a href="#28">Hunedoara</a>
+    <a href="#29">Ialomita</a>
+    <a href="#30">Iasi</a>
+    <a href="#31">Ilfov</a>
+    <a href="#32">Maramures</a>
+    <a href="#33">Mehedinti</a>
+    <a href="#34">Mures</a>
+    <a href="#35">Neamt</a>
+    <a href="#36">Olt</a>
+    <a href="#37">Prahova</a>
+    <a href="#38">Salaj</a>
+    <a href="#39">Satu Mare</a>
+    <a href="#40">Sibiu</a>
+    <a href="#41">Suceava</a>
+    <a href="#42">Teleorman</a>
+    <a href="#43">Timis</a>
+    <a href="#44">Tulcea</a>
+    <a href="#45">Valcea</a>
+    <a href="#46">Vaslui</a>
+    <a href="#47">Vrancea</a>
+    </ul>
+  </div>
+</div>
+<br>
+<p id="1">
+ 1	CENTRUL MILITAR JUDEȚEAN -ALBA-	  <br>           -Localitatea Alba Iulia, Str. Regina Maria nr. 6, Alba	0258.812.291	recrutare_alba@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475.3852882974102!2d23.583473881189295!3d46.07135197192144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ea8099c32dccd%3A0xa2a3876a7e4d5933!2sStrada%20Regina%20Maria%206%2C%20Alba%20Iulia!5e0!3m2!1sit!2sro!4v1731943257643!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p  id="2">
+ 2	CENTRUL MILITAR JUDEȚEAN -ARAD-	    <br>         -Localitatea Arad, Str. Lucian Blaga nr. 4-6, Arad	0257.282.447	recrutare_arad@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.822905059785!2d21.314428369530496!3d46.17314544314671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474598fe3d03308f%3A0x6c9e17abe22b778e!2sStrada%20Lucian%20Blaga%204%2C%20Arad!5e0!3m2!1sit!2sro!4v1731942691475!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="3">
+  3	CENTRUL MILITAR JUDEȚEAN -ARGEȘ-    <br>       -Localitatea Pitești, Str. Craiovei, nr. 150, Argeș	0248.215.284	recrutare_arges@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.53937629715244!2d24.88112614233483!3d44.84110994730088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2bceafa4f3077%3A0xa6b8067c40331160!2sCalea%20Craiovei%20150%2C%20Pite%C8%99ti!5e0!3m2!1sit!2sro!4v1731943389738!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="4">
+ 4	CENTRUL MILITAR JUDEȚEAN -BACĂU-    <br>       -Localitatea Bacău, Str. Mihai Eminescu nr. 25D, Bacău	0234.546.855	recrutare_bacau@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.76657474796446!2d26.89895179393357!3d46.5651791074095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b56fd7653c74d3%3A0x5a41fd00f1a3e62f!2sStr.%20Mihai%20Eminescu%2025D%2C%20Bac%C4%83u%20600258!5e0!3m2!1sit!2sro!4v1731943448331!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="5">
+  5	CENTRUL MILITAR JUDEȚEAN -BIHOR-	     <br>      -Localitatea Oradea, Str. Dunărea nr. 2, Bihor	0259.434.596	recrutare_bihor@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.01182348611897!2d21.935904471564974!3d47.061100061910125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647e1a11f2fe1%3A0xaa5e9ac178f9dbd!2sStrada%20Dun%C4%83rea%202%2C%20Oradea%20410027!5e0!3m2!1sit!2sro!4v1731943500771!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="6">
+  6	CENTRUL MILITAR JUDEȚEAN -BISTRIȚA-NĂSĂUD-	<br> -Localitatea Bistrița, Str. Republicii nr. 3 - 5, Bistrița-Năsăud	0263.212.453	recrutare_bistritanasaud@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d570.5776848338012!2d24.498439723771135!3d47.135519859601324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4749f7aaea8bda75%3A0xb523e065f4630797!2sCentrul%20Militar%20Bistri%C8%9Ba-N%C4%83s%C4%83ud!5e0!3m2!1sit!2sro!4v1731943583700!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+  
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="7">
+7	CENTRUL MILITAR JUDEȚEAN -BOTOȘANI-	      <br>   -Localitatea Botoșani, Str. Sucevei, nr. 2, Botoșani	0231.518.086	recrutare_botosani@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d474.24369990816786!2d26.642476287960346!3d47.747941921357715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4734e9799b44626d%3A0xcd90e14e0b32744f!2sCentrul%20Militar%20Boto%C5%9Fani!5e0!3m2!1sit!2sro!4v1731943687507!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="8">
+  8	CENTRUL MILITAR JUDEȚEAN -BRĂILA-	        <br>   -Localitatea Brăila, Str. Buzăului Nr.5, Brăila	0239.623.712	recrutare_braila@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d702.1683649044808!2d27.954218169666134!3d45.254395542276484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b72a05779025b9%3A0xb94f63cc0fedc582!2sCentrul%20Militar%20Judetean%20Br%C4%83ila!5e0!3m2!1sit!2sro!4v1731943766498!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+  
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="9">
+  9	CENTRUL MILITAR JUDEȚEAN- BRAȘOV-	        <br>   -Localitatea Brașov, Str. Lungă nr. 231, Brașov	0268.510.468	recrutare_brasov@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d492.95230301027965!2d25.578232441539285!3d45.65967061747948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b35ba47f396c59%3A0xf1bbfed007a8be30!2sParchetul%20Militar!5e0!3m2!1sit!2sro!4v1731943811226!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="10">
+  10	CENTRUL MILITAR -SECTOR 1-	              <br>   -Localitatea București, Str. Căderea Bastiliei, nr. 13, București - Sectorul 1	0213.191.058	recrutare_sector1@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423.40024101001427!2d26.09646656535522!3d44.44780725283833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff52f8739a5d%3A0xd9d433eba0ff7c89!2sCentrul%20Militar%20Bucure%C5%9Fti%20Sector%206!5e0!3m2!1sit!2sro!4v1731943879890!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="11">
+  11	CENTRUL MILITAR -SECTOR 2-	              <br>   -Localitatea București, Str. Thomas Masaryk, nr. 22, București - Sectorul 2	0212113813	recrutare_sector2@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356.07860219148426!2d26.1066128706775!3d44.44077567627493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ffc42271071f%3A0xc49eb646b3212f42!2sCentrul%20Militar%20Sector%202!5e0!3m2!1sit!2sro!4v1731943922211!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+  
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="12">
+  12	CENTRUL MILITAR -SECTOR 3-	              <br>   -Localitatea București, Bld. Nicolae Grigorescu, nr. 12, București - Sectorul 3	0213242309	recrutare_sector3@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d503.6569196564524!2d26.158771336526403!3d44.43082810245516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1feca16e85ea7%3A0x14ed31c3aeec0bb!2sCentrul%20Militar%20Bucure%C5%9Fti%20Sector%203!5e0!3m2!1sit!2sro!4v1731944021330!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="13">
+  13	CENTRUL MILITA -ZONAL BUCUREȘTI (S4)-	 <br>    -Localitatea București, Str. Remus nr. 6, sector 3, București - Sectorul 4	0213367820	recrutare_sector4@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299.46678012053644!2d26.11564061085804!3d44.43266570609017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff1313ef2dd5%3A0x8d965be5e489c026!2sArea%20Military%20Center%20Bucharest!5e0!3m2!1sit!2sro!4v1731944345075!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="14">
+  14	CENTRUL MILITAR -SECTOR 5-              <br>   -Localitatea București, Șos. Panduri, nr. 24, București - Sectorul 5	0214101261	recrutare_sector5@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423.55903514219307!2d26.070011549407273!3d44.42589624907633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff7b66c0f873%3A0xd9aed31e020f5636!2sMilitary%20Center%20of%20District%205!5e0!3m2!1sit!2sro!4v1731944387883!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="15">
+  15	CENTRUL MILITAR -SECTOR 6-	              <br>   -Localitatea București, Str. Pompiliu Eliade, nr. 4 bis, București - Sectorul 6	0213155881	recrutare_sector6@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251.80957340523068!2d26.088229738834883!3d44.43521118505679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff432738b301%3A0xb9965b2cdaf49144!2sCentrul%20Militar%20al%20Sectorului%206%20Bucure%C8%99ti!5e0!3m2!1sit!2sro!4v1731944432954!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="16">
+  16	CENTRUL MILITAR JUDEȚEAN -BUZĂU-        <br>   -Localitatea Buzău, Str. Unirii, nr. 140, Buzău	0238.720.620	recrutare_buzau@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175.86317615570582!2d26.82442082157103!3d45.15042851528946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b15fdd01f2d8e3%3A0x29f30d264a3e65ef!2sCentrul%20Militar%20Buz%C4%83u!5e0!3m2!1sit!2sro!4v1731944577306!5m2!1sit!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p  id="17">
+  17	CENTRUL MILITAR JUDEȚEAN -CĂLĂRAȘI-	       <br>  -Localitatea Călărași, Str. Mușețelului nr. 10, Bl. J 24 , Călărași	0242.331.955	recrutare_calarasi@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1429.9461671978586!2d27.3173124!3d44.2092838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b022c69f113717%3A0x9085ee2df3c1a124!2zQ2VudHJ1bCBNaWxpdGFyIEPEg2zEg3JhyJlp!5e0!3m2!1sro!2sro!4v1732200672587!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p  id="18">
+  18	CENTRUL MILITAR JUDEȚEAN -CARAȘ-SEVERIN-	 <br>  -Localitatea Reșița, Str. Sportului, nr.4, Caraș-Severin	0255.214.824	recrutare_carasseverin@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37759.41167238468!2d21.886925208036796!3d45.298626320828525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47502a632c9979a5%3A0x4eb32af04da12e0a!2sCentrul%20Militar%20Jude%C8%9Bean!5e0!3m2!1sro!2sro!4v1732201005544!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p  id="19">
+  19	CENTRUL MILITAR ZONAL -CLUJ	Localitatea-  <br>  -Cluj Napoca, Str. Calea Dorobanților nr. 8-10, Cluj	0264.432.918	recrutare_cluj@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d483.07291996982127!2d23.599652654488708!3d46.771339672985064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c21ecf2b6fd%3A0x99fa5eeab5f49ccf!2sCentru%20Militar%20Zonal%20Cluj%20%E2%80%93%20Biroul%20de%20Informare%20%C8%99i%20Recrutare!5e0!3m2!1sro!2sro!4v1732201030574!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="20">
+  20	CENTRUL MILITAR ZONAL -CONSTANȚA-	         <br>  -Localitatea Constanța, Str. Mircea cel Bătrân, nr.106, Constanța	0241.484.399	recrutare_constanta@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d715.2866112132035!2d28.649285470938786!3d44.18344942332761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40bae51ce714928b%3A0xbd6f1c84462ff382!2scentrul%20militar%20zonal%20constanta!5e0!3m2!1sro!2sro!4v1732201070188!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+  
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="21">
+  21	CENTRUL MILITAR JUDEȚEAN -COVASNA-	      <br>   -Localitatea Sf. Gheorghe, Str. Kos Karoly, nr. 3, Covasna	0267.311.209	recrutare_covasna@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.4540479486845!2d25.783724776740954!3d45.86222480679319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b4a4947bea0a61%3A0xac8d43aba9a9f1f3!2sCentrul%20Militar%20Jude%C8%9Bean%20Covasna!5e0!3m2!1sro!2sro!4v1732201882790!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="22">
+  22	CENTRUL MILITAR JUDEȚEAN -DÂMBOVIȚA-	    <br>   -Localitatea Tîrgoviște, Str. Ion Heliade Rădulescu, nr. 16, Dâmbovița	0744653234; 0245211463	recrutare_dambovita@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.6504389453326!2d25.454983576703174!3d44.93044376889272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2f795ea2e0075%3A0xb0745d76dc8147a9!2sCentrul%20Militar%20Judetean%20Dambovita!5e0!3m2!1sro!2sro!4v1732201949455!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="23">
+  23	CENTRUL MILITAR ZONAL -DOLJ-	            <br>   -Localitatea Craiova, Str. General Dragalina, nr. 60 A, Dolj	0251.534.404	recrutare_dolj@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28768.07117665846!2d23.77916868921073!3d44.32733582281691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d7afa16498a7%3A0x88e0aeb8ad3368e4!2sCentrul%20Militar%20Zonal!5e0!3m2!1sro!2sro!4v1732201979346!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="24">
+  24	CENTRUL MILITAR JUDEȚEAN -GALAȚI-	        <br>   -Localitatea Galați, Str. Cerealelor, nr. 2, Galați	0236.497.031	recrutare_galati@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d349.90311998259034!2d28.05489121804513!3d45.44512270877534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6df4e2d3df373%3A0xc6c1ecd9d51779ca!2sCentrul%20Militar%20Jude%C8%9Bean%20Gala%C8%9Bi!5e0!3m2!1sro!2sro!4v1732202000638!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="25">
+  25	CENTRUL MILITAR JUDEȚEAN -GIURGIU-	      <br>   -Localitatea Giurgiu, Bld. Mihai Viteazul, nr.  4, Giurgiu	0246.216.720	recrutare_giurgiu@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5273.583245276801!2d25.96071048871352!3d43.88811876709428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ae663dccd6a349%3A0xe3c4176c23d20ff2!2sCENTRUL%20MILITAR%20GIURGIU!5e0!3m2!1sro!2sro!4v1732202020673!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="26">
+  26	CENTRUL MILITAR JUDEȚEAN -GORJ-	           <br>  -Localitatea Târgu Jiu, Str. Republicii, nr. 13, Gorj	0253.215.563	recrutare_gorj@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.4852192358762!2d23.27443787670739!3d45.03537456194766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474d8a6819839165%3A0xd456822ab4392326!2sBIROUL%20INFORMARE%20RECRUTARE%20GORJ!5e0!3m2!1sro!2sro!4v1732202355871!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="27">
+  27	CENTRUL MILITAR JUDEȚEAN -HARGHITA-	      <br>   -Localitatea Miercurea Ciuc, Str. Piața Cetății, nr. 1, Harghita	0266.311.630	recrutare_harghita@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.659806425658!2d25.79890649178464!3d46.356295798975154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474b2a148def1d9b%3A0x5c1fd5faa65c98be!2sCentrul%20Militar%20Harghita!5e0!3m2!1sro!2sro!4v1732202404203!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="28">
+  28	CENTRUL MILITAR JUDEȚEAN -HUNEDOARA-	    <br>   -Localitatea Deva, Str. Piața Unirii, nr. 6, Hunedoara	0254211304	recrutare_hunedoara@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d133306.96050411047!2d22.94894325563375!3d45.82394852120496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ef28ee2829409%3A0xf5a48f8887031fd6!2sCentrul%20Militar%20Jude%C8%9Bean!5e0!3m2!1sro!2sro!4v1732202466626!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="29">
+  29	CENTRUL MILITAR JUDEȚEAN -IALOMIȚA-	      <br>   -Localitatea Slobozia, Str. Lacului, nr.6, Ialomița	0243.230.710	recrutare_ialomita@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842.3732321883185!2d27.356113276688685!3d44.5689314927246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0519c5c329c65%3A0xfec9264840b15ac!2sCentrul%20Militar%20Jude%C8%9Bean%20Ialomi%C8%9Ba!5e0!3m2!1sro!2sro!4v1732202491899!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="30">
+  30	CENTRUL MILITAR ZONAL -IAȘI-	            <br>   -Localitatea Iași, Str. Arh.G.M. Cantacuzino, nr. 20, Iași	0332.414.892	recrutare_iasi@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2712.8258643750487!2d27.577994376794685!3d47.16126481862351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafbb17a656fd1%3A0xf1e5c2f0df5b0d6c!2sCentrul%20Militar%20Zonal%20Iasi!5e0!3m2!1sro!2sro!4v1732202509877!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="31">
+  31	CENTRUL MILITAR JUDEȚEAN -ILFOV-        <br>   -Localitatea București, B-dul. Iuliu Maniu, nr. 13, Ilfov	0214.113.141	recrutare_ilfov@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.033457910336!2d26.11319857668329!3d44.43247590168191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff1313ef2dd5%3A0x8d965be5e489c026!2sCentrul%20Militar%20Zonal%20Bucure%C5%9Fti%20%2C%2CGeneral%20Ioan%20Sorin%22!5e0!3m2!1sro!2sro!4v1732202528033!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="32">
+  32	CENTRUL MILITAR JUDEȚEAN -MARAMUREȘ-	    <br>   -Localitatea Baia Mare, Str. Turnului nr.1, Maramureș	0262.211.361	recrutare_maramures@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.291500824081!2d23.579405476815463!3d47.65933328433394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4737dc65b028b2b1%3A0xbc261b5911233817!2sBIROUL%20INFORMARE%20RECRUTARE%20MARAMURE%C5%9E!5e0!3m2!1sro!2sro!4v1732202546467!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="33">
+  33	CENTRUL MILITAR JUDEȚEAN -MEHEDINȚI-	     <br>  -Localitatea Drobeta Turnu Severin, Bld. Carol I nr.25., Mehedinți	0352.422.209	recrutare_mehedinti@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.715677482304!2d22.645196676690873!3d44.623287789150766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47523195d8b5a2d3%3A0x14d61cb5dd75fe8e!2sCENTRUL%20MILITAR%20MEHEDIN%C5%A2I!5e0!3m2!1sro!2sro!4v1732202565011!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="34">
+  34	CENTRUL MILITAR JUDEȚEAN -MUREȘ-	        <br>   -Localitatea Târgu Mureș, Mihai Eminescu, nr. 29, Mureș	0265.250.642	recrutare_mures@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.888392782533!2d24.557986876769135!3d46.54989456034801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474bb7dcc9b44dcb%3A0x8f2560cfe253f796!2sCentrul%20militar%20jude%C8%9Bean%20CMJ%20Mure%C8%99!5e0!3m2!1sro!2sro!4v1732202591119!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="35">
+  35	CENTRUL MILITAR JUDEȚEAN -NEAMȚ-	        <br>   -Localitatea Piatra Neamț, Str. Durăului, nr. 9, Neamț	0233.213.886	recrutare_neamt@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2724.5339089256126!2d26.361383276785165!3d46.931544734348755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473555c93a54e40b%3A0x620139767f453ac1!2sCentru%20Militar%20Jude%C8%9Bean%20Neam%C8%9B!5e0!3m2!1sro!2sro!4v1732202609408!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="36">
+  36	CENTRUL MILITAR JUDEȚEAN -OLT-	          <br>   -Localitatea Slatina, Str. Drăgănești, nr. 29, Olt	0249.431.255	recrutare_olt@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.450103426346!2d24.379666976682863!3d44.423928602242185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ad384aeda49e11%3A0x28d10ce48439044d!2sCENTRUL%20MILITAR%20JUDE%C8%9AEAN%20OLT!5e0!3m2!1sro!2sro!4v1732202960167!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="37">
+  37	CENTRUL MILITAR JUDEȚEAN -PRAHOVA-	      <br>   -Localitatea Ploiești, Str. Vestului, nr. 14-16, Prahova	0244.552.895	recrutare_prahova@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.4907079457384!2d25.98722347670328!3d44.933691568677794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b24971483f68d3%3A0xbb22cbbccb740e94!2sCentrul%20Militar%20Jude%C8%9Bean%20Prahova!5e0!3m2!1sro!2sro!4v1732202978573!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="38">
+  38	CENTRUL MILITAR JUDEȚEAN -SĂLAJ-	        <br>   -Localitatea Zalău, Str. Lt.col. Pretorian nr. 100, Sălaj	0745.511616	recrutare_salaj@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81908.13127280686!2d22.981896916127933!3d47.18071316845666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4748684b260a8b21%3A0xeff3ffbafaef22!2sCentrul%20Militar%20Jude%C5%A3ean!5e0!3m2!1sro!2sro!4v1732203004327!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="39">
+  39	CENTRUL MILITAR JUDEȚEAN -SATU MARE-	    <br>   -Localitatea Satu Mare, Str. Petöfi Sándor, nr. 47, Satu Mare	0261.716.513	recrutare_satumare@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.6070637939174!2d22.86580507682105!3d47.7890668753589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473805ceb3d39561%3A0x7265c0abd549d567!2sCentrul%20Militar%20Satu%20Mare!5e0!3m2!1sro!2sro!4v1732203024272!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="40">
+  40	CENTRUL MILITAR  ZONAL -SIBIU-	          <br>   -Localitatea Sibiu, Calea Dumbravii, nr. 26, Sibiu	0269.244.712	recrutare_sibiu@mapn.ro<br><br>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.020730413944!2d24.14394867673798!3d45.79081241158668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c678f0406b279%3A0xed022e71335beaed!2sCercul%20Militar!5e0!3m2!1sro!2sro!4v1732203093113!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="41">
+  41	CENTRUL MILITAR JUDEȚEAN -SUCEAVA-	     <br>    -Localitatea Suceava, Str. Alexandru cel Bun, nr. 45, Suceava	0230.520.986	recrutare_suceava@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52649.80100736447!2d26.24151044595527!3d47.639904374786504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4734fc3285e676cf%3A0x5674fd2171b32335!2sCentrul%20Militar!5e0!3m2!1sro!2sro!4v1732203119839!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="42">
+  42	CENTRUL MILITAR JUDEȚEAN -TELEORMAN-	    <br>   -Localitatea Alexandria, Str. Constantin Brâncoveanu, nr. 45, Teleorman	0247.317.450	recrutare_teleorman@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.6986117028405!2d25.32893577666487!3d43.96560023216895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40adcd093cdc00af%3A0x28e93b271b2e762b!2sCentrul%20Militar%20Teleorman!5e0!3m2!1sro!2sro!4v1732203143855!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="43">
+  43	CENTRUL MILITAR ZONAL -TIMIȘ-	            <br>   -Localitatea Timișoara, Bvd Mihai Viteayu nr. 32, Timiș	0256.433.698	recrutare_timis@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.349481957366!2d21.222735776736005!3d45.74413921471651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455dbb2ac23fff%3A0x4acc8f99f2220f71!2sCentrul%20Militar%20Zonal%20Timi%C8%99!5e0!3m2!1sro!2sro!4v1732203167110!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="44">
+  44	CENTRUL MILITAR JUDEȚEAN -TULCEA-	        <br>   -Localitatea Tulcea, Str. Libertății, nr. 82 B, Tulcea	0240.531.576	recrutare_tulcea@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.7186091536987!2d28.779637174370738!3d45.172547733989056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b759e698e31c0b%3A0x60d77d8d1764bc27!2sCapela%20militar%C4%83!5e0!3m2!1sro!2sro!4v1732203347494!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="45">
+  45	CENTRUL MILITAR JUDEȚEAN -VÂLCEA-	        <br>   -Localitatea Râmnicu Vâlcea, Str. Mr. Vasile Popescu, nr. 8, Vâlcea	0250.733.985	recrutare_valcea@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23184.237668743976!2d24.378997001761842!3d45.1156262157699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474d38a4aed52895%3A0x49a4f4345bf1d73!2sCentrul%20Militar%20Judetean%20Valcea!5e0!3m2!1sro!2sro!4v1732203373205!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+<p id="46">
+  46	CENTRUL MILITAR JUDEȚEAN -VASLUI-	        <br>   -Localitatea Vaslui, Str. Decebal, nr. 16, Vaslui	0235.315.309	recrutare_vaslui@mapn.ro<br><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26829.43952561566!2d27.714467864262915!3d46.630421618244526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ca737c7e6f2a4f%3A0xd3e373a86e3374a2!2sCentrul%20Militar%20Jude%C8%9Bean!5e0!3m2!1sro!2sro!4v1732203390880!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+<a href="contacte.html">
+  <button class="button button1">SUS</button>
+</a>
+</div>
+</div>
+<p id="47">
+  47	CENTRUL MILITAR ZONAL -VRANCEA-	         <br>    -Localitatea Focșani, Str. Cezar Bolliac, nr. 5-7, Vrancea	0237.216.227	recrutare_vrancea@mapn.ro<br><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44571.10540842622!2d27.161391420236452!3d45.717173537277894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b419c8113fdeb5%3A0x33241ed16dab0f23!2sCentrul%20Militar%20zonal%20Vrancea!5e0!3m2!1sro!2sro!4v1732203410574!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</p>
+<div class="container1">
+  <div class="center">
+    <a href="contacte.html">
+      <button class="button button1">SUS</button>
+    </a>
+  </div>
+</div>
+</div>
+<a href="./contacte.html" class="scroll-arrow"></a>
+<div class="footer">
+  <h2 style="text-align: left;">
+    Proiect atestat anul 2025
+  </h2>
+  <h3 style="text-align: left;">Robert Modrean</h3>
+  <h3 style="text-align: left;">clasa 12 A - Matematica Informatica</h3>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
